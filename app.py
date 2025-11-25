@@ -17,7 +17,7 @@ try:
     # Convert input to a float for calculation
     usd_amount = float(usd_input) 
     
-    # Perform the currency conversion calculation
+    # Do the the currency conversion calculation
     mxn_amount = usd_amount * MXN_RATE  
     
     # --- Display Result Clearly ---
@@ -28,7 +28,7 @@ try:
     print("-------------------------\n")
 
 except ValueError:
-    # Handle non-numeric input gracefully
+    # Handle non-numeric input correctly
     print("\n❌ Invalid Input: Please enter a valid number for the USD amount.")
     # Terminate the program cleanly after an error
     exit()
